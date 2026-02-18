@@ -1,0 +1,23 @@
+# virtual environments
+.venv/
+backend/.venv/
+
+# environment variables
+.env
+backend/.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+
+# datasets & models
+*.pt
+*.onnx
+*.h5
+*.ckpt
+
+# OS
+.DS_Store
