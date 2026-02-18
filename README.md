@@ -1,27 +1,26 @@
-"# Biometric-Authentication-System" 
-# 🔐 AI-Powered Biometric Authentication System
+#  AI-Powered Biometric Authentication System
 
 A full-stack biometric authentication system implementing OTP verification + Face Recognition + Liveness Detection to provide secure multi-factor authentication.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👤 User Registration
+###  User Registration
 - Email + Phone number
 - OTP verification via Twilio
 - Live face capture
 - Face embedding generation
 - Embedding stored securely in database
 
-### 🔐 User Login
+###  User Login
 - Email verification
 - Face capture
 - Liveness detection (anti-spoofing)
 - Cosine similarity comparison
 - Secure authentication decision
 
-### 🛡 Security Mechanisms
+###  Security Mechanisms
 - Multi-factor authentication (OTP + Face)
 - Liveness detection to prevent spoof attacks
 - Cosine similarity threshold validation
@@ -30,34 +29,34 @@ A full-stack biometric authentication system implementing OTP verification + Fac
 
 ---
 
-## 🏗 Tech Stack
+##  Tech Stack
 
-### 🔹 Frontend
+###  Frontend
 - React.js
 - Axios
 - React Router
 - React Webcam
 
-### 🔹 Backend
+###  Backend
 - Flask
 - Flask-SQLAlchemy
 - Flask-CORS
 - Twilio API
 - NumPy
 
-### 🔹 AI / Computer Vision
+###  AI / Computer Vision
 - Face Embedding Model
 - Cosine Similarity Matching
 - Liveness Detection Module
 - OpenCV (image decoding)
 
-### 🔹 Database
+###  Database
 - SQLite (Development)
 - Easily upgradeable to PostgreSQL / MySQL
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 biometric-authentication/
 
@@ -93,9 +92,9 @@ biometric-authentication/
 
 ---
 
-## 🔄 Authentication Flow
+##  Authentication Flow
 
-### 📝 Registration Flow
+### Registration Flow
 1. User enters name, email, phone
 2. OTP sent via Twilio
 3. OTP verification
@@ -104,7 +103,7 @@ biometric-authentication/
 6. Face embedding generated
 7. Embedding stored in database
 
-### 🔓 Login Flow
+###  Login Flow
 1. Email check
 2. Face capture
 3. Liveness detection
@@ -114,7 +113,7 @@ biometric-authentication/
 
 ---
 
-## 🧠 Cosine Similarity Formula
+##  Cosine Similarity Formula
 
 similarity = (A · B) / (||A|| * ||B||)
 
@@ -122,9 +121,9 @@ If similarity score > 0.75 → Authentication successful.
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 🔹 Backend Setup
+###  Backend Setup
 
 cd backend  
 python -m venv venv  
@@ -137,7 +136,7 @@ http://localhost:5000
 
 ---
 
-### 🔹 Frontend Setup
+###  Frontend Setup
 
 cd frontend  
 npm install  
@@ -148,7 +147,7 @@ http://localhost:5173
 
 ---
 
-## 🔐 Environment Variables (.env)
+## Environment Variables (.env)
 
 TWILIO_ACCOUNT_SID=your_sid  
 TWILIO_AUTH_TOKEN=your_token  
@@ -156,7 +155,7 @@ TWILIO_PHONE_NUMBER=+1234567890
 
 ---
 
-## 📈 Why This Project Is Strong
+##  Why This Project Is Strong
 
 This project demonstrates:
 
@@ -170,7 +169,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - JWT Token Authentication  
 - Cloud Deployment (AWS / GCP)  
@@ -181,7 +180,7 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Developed as a secure AI-based authentication system combining:
 
